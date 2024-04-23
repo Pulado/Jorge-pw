@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+main{
+  /*como deixar no centro da pagina*/  
+    width: 90vw;
+    max-width: 512px;
+    height: 60vh;
+    padding: 32px;
+    border: 3px solid brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    
+    /*colocar os elemnetos alinhados*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+img{
+    width: 128px;
+    border-radius: 50%;
+    height: 128px;
+    margin-right: 2em;
+}
+
+.input{
+    width: 90%;
+    padding: 1.5em;
+    margin: 0.5em ;
+    border: 1px solid black;
+    border-radius: 16px;
+}
